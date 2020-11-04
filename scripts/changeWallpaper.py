@@ -22,7 +22,6 @@ def setwallpaper(filepath, plugin = 'org.kde.image'):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='KDE Wallpaper setter')
     parser.add_argument('file', help='Wallpaper file name')
-    parser.add_argument('--plugin', '-p', help='Wallpaper plugin (default is org.kde.image)', default='org.kde.image')
     args = parser.parse_args()
-    setwallpaper(args.file, args.plugin)
+    setwallpaper(args.file)
     subprocess.run(['wal', '-i', args.file])
