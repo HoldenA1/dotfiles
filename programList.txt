@@ -1,0 +1,63 @@
+This document is intended as an index of the programs I've installed and use in case I have to reinstall my entire os.
+
+Internet:
+Firefox - web browser
+Mongodb cloud - free cloud hosted database
+Nord vpn - vpn
+
+CLI Tool:
+kitty - terminal window
+zsh - shell
+nnn - file manager
+lolcat - rainbow text
+unimatrix - [-c blue] for blue text
+bat - cat w/ syntax highlighting
+neofetch - system info
+svgo - svg optimizer
+pywal - color palette generator
+
+Text Editors:
+VIM
+nano
+VS Code (vscodium)
+Arduino IDE
+
+Utility:
+Dolphin - file manager
+htop - system analyzer
+kcalc - calculator
+Obsidian - note taking
+
+Programming:
+nvm/nodejs/npm
+python/pip
+gcc - C compiler
+nginx - webserver
+postman - api dev
+flutter - android app development
+Polypane - responsive web dev
+Mongodb compass - database
+
+Visual:
+Blender - 3D modeling
+GIMP - photo editing
+Cura - slicer software
+Inkscape - svg editing
+
+Theming:
+Qt5 Config Tool
+Kvantum
+zsh powerlevel 10k
+Glasscord Electron - transparent vscodium
+
+Aliases:
+nord - nordvpn
+lsprgm - display the contents of this file
+
+Shortcuts:
+Ctrl+Alt+T - open terminal window
+Ctrl+Shift+T - open new terminal tab
+Ctrl+Shift+Right - next terminal tab
+Ctrl+Shift+Q - close current terminal tab
+Ctrl+Meta+Right - switch to next desktop
+Meta+[Direction key] - tile window that direction
