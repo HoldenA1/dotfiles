@@ -14,7 +14,7 @@ This document is intended as an index of the programs I've installed and use in 
 - zsh - shell
 - nnn - file manager
 - lolcat - rainbow text
-- unimatrix - [-c blue] for blue text
+- cmatrix - matrix text
 - bat - cat w/ syntax highlighting
 - neofetch - system info
 - svgo - svg optimizer
