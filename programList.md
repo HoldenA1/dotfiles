@@ -5,25 +5,24 @@ This document is intended as an index of the programs I've installed and use in 
 ## Internet
 
 - Firefox - web browser
-- Mongodb cloud - free cloud hosted database
+- [Mongodb cloud](https://account.mongodb.com/account/login) - free cloud hosted database
 - Nord vpn - vpn
 
 ## CLI Tool
 
-- kitty - terminal window
+- [kitty](https://sw.kovidgoyal.net/kitty/) - terminal window
 - zsh - shell
-- nnn - file manager
-- lolcat - rainbow text
-- cmatrix - matrix text
-- bat - cat w/ syntax highlighting
-- neofetch - system info
-- svgo - svg optimizer
-- pywal - color palette generator
+- [nnn](https://github.com/jarun/nnn) - file manager
+- [lolcat](https://github.com/busyloop/lolcat) - rainbow text
+- [cmatrix](https://github.com/abishekvashok/cmatrix) - matrix text
+- [bat](https://github.com/sharkdp/bat) - cat w/ syntax highlighting
+- [neofetch](https://github.com/dylanaraps/neofetch) - system info
+- [svgo](https://github.com/svg/svgo) - svg optimizer
+- [pywal](https://github.com/dylanaraps/pywal) - color palette generator
 
 ## Text Editors
 
 - VIM
-- nano
 - VS Code (vscodium)
 - Arduino IDE
 
