@@ -53,6 +53,15 @@ This document is intended as an index of the programs I've installed and use in 
 
 ## Theming
 
+### New
+
+- rofi - power menu and program menu
+- polybar - taskbar
+- i3-gaps - window manager
+- picom - compositor
+
+### Legacy
+
 - Qt5 Config Tool
 - Kvantum
 - zsh powerlevel 10k
