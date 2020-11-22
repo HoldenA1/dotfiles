@@ -133,7 +133,7 @@ interval = 1
 date =
 date-alt = "%b %d, %Y  "
 time = "%I:%M"
-time-alt = "%H:%M:%S"
+time-alt = "%I:%M:%S"
 
 format-prefix-foreground = ${colors.foreground}
 format-underline = #0a6cf5
@@ -158,8 +158,8 @@ label-muted-foreground = ${colors.secondary}
 
 [module/battery]
 type = internal/battery
-battery = BAT1
-adapter = ADP1
+battery = BAT0
+adapter = AC
 full-at = 98
 
 format-charging = <ramp-capacity>
@@ -189,7 +189,7 @@ type = custom/text
 format-spacing = 1
 content = 
 content-foreground = ${colors.alert}
-click-left = bash ~/Scripts/rofi/launch.sh powermenu
+click-left = bash ~/scripts/rofi/launch.sh powermenu
 
 
 [settings]
