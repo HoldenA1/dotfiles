@@ -1,5 +1,5 @@
-syntax on
-
-set tabstop=4
-
-set number
+syntax on " Syntax highlighting
+set tabstop=4 " Spaces per tab
+set number " Line numbers
+set ai " Auto-indent
+set si " Smart indent
