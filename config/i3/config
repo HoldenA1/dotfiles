@@ -140,9 +140,6 @@ bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 # exit i3 (logs you out of your X session)
 
-# Powermenu exit screen
-bindsym $mod+Shift+e exec --no-startup-id '/home/holden/scripts/rofi/launch.sh' powermenu
-
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -186,6 +183,9 @@ gaps inner 20
 # Reserve polybar space
 gaps top 60
 
+# Rounded corners
+border_radius 10
+
 # Additionally, you can issue commands with the following syntax. This is useful to bind keys to changing the gap size.
 # gaps inner|outer current|all set|plus|minus <px>
 # gaps inner all set 10
@@ -200,29 +200,18 @@ smart_borders on
 
 ## Plasma Integration
 # Try to kill the wallpaper set by Plasma (it takes up the entire workspace and hides everythiing)
-
 exec --no-startup-id wmctrl -c Plasma
-
 for_window [title="Desktop — Plasma"] kill; floating enable; border none
 
 ## Avoid tiling popups, dropdown windows from plasma
-
 # for the first time, manually resize them, i3 will remember the setting for floating windows
-
 for_window [class="plasmashell"] floating enable;
-
 for_window [class="Plasma"] floating enable; border none
-
 for_window [title="plasma-desktop"] floating enable; border none
-
 for_window [title="win7"] floating enable; border none
-
 for_window [class="krunner"] floating enable; border none
-
 for_window [class="Kmix"] floating enable; border none
-
 for_window [class="Klipper"] floating enable; border none
-
 for_window [class="Plasmoidviewer"] floating enable; border none
 
 # Set Wallpaper
@@ -232,4 +221,4 @@ exec --no-startup-id feh --bg-scale '/home/holden/Pictures/wallpaper/473215.jpg'
 exec --no-startup-id '/home/holden/scripts/polybar/launch.sh'
 
 # Start picom
-exec --no-startup-id '/home/holden/scripts/picom/launch.sh'
+exec --no-startup-id compton --config ~/.config/compton/compton.conf
