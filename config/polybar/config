@@ -1,11 +1,12 @@
 [colors]
 background = #6e2e3440 
-foreground = #e3eaf3
-primary = #02c084
+foreground = #eff0eb
+primary = #5af78e
 secondary = #65a2d9
 tertiary = #d07ef2
-fourth = #e5c246
-alert = #ed404c
+yellow = #f3f99d
+alert = #ff5c57
+blue = #57c7ff
 
 
 [bar/main]
@@ -78,15 +79,15 @@ ws-icon-9 = "9;  "
 format = <label-state>
 
 label-focused = %icon%
-label-focused-foreground = ${colors.fourth}
+label-focused-foreground = ${colors.yellow}
 label-focused-padding = 1
 
 label-unfocused = ${self.label-focused}
-label-unfocused-foreground = #0a7383
+label-unfocused-foreground = ${colors.blue}
 label-unfocused-padding = ${self.label-focused-padding}
 
 label-visible = ${self.label-focused}
-label-visible-foreground = #0a7383
+label-visible-foreground = ${colors.blue}
 label-visible-padding = ${self.label-focused-padding}
 
 label-urgent = ${self.label-focused}
@@ -144,8 +145,8 @@ label = %date%%time%
 type = internal/pulseaudio
 
 format-volume = <ramp-volume>
-label-volume-foreground = ${colors.secondary}
-ramp-volume-foreground = ${colors.secondary}
+label-volume-foreground = ${colors.blue}
+ramp-volume-foreground = ${colors.blue}
 label-volume = 
 
 ramp-volume-0 = 
@@ -153,7 +154,7 @@ ramp-volume-1 = 
 ramp-volume-2 = 
 
 label-muted = ﱝ
-label-muted-foreground = ${colors.secondary}
+label-muted-foreground = ${colors.blue}
 
 
 [module/battery]
@@ -169,7 +170,7 @@ format-charging = <ramp-capacity> <label-charging>
 format-discharging = <ramp-capacity> <label-discharging>
 
 label-full =  
-label-full-foreground = ${colors.fourth}
+label-full-foreground = ${colors.yellow}
 
 ramp-capacity-0 = 
 ramp-capacity-1 = 
@@ -181,10 +182,10 @@ ramp-capacity-6 = 
 ramp-capacity-7 = 
 ramp-capacity-8 = 
 ramp-capacity-9 = 
-ramp-capacity-foreground = ${colors.fourth}
+ramp-capacity-foreground = ${colors.yellow}
 
-label-discharging-foreground = ${colors.fourth}
-label-charging-foreground = ${colors.fourth}
+label-discharging-foreground = ${colors.yellow}
+label-charging-foreground = ${colors.yellow}
 
 [module/powermenu]
 type = custom/text
