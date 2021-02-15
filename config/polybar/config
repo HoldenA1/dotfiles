@@ -14,7 +14,7 @@ offset-x = 24
 offset-y = 24
 
 height = 36
-radius = 0.0
+radius = 10.0
 
 override-redirect = true
 wm-restack = i3
@@ -191,7 +191,7 @@ type = custom/text
 format-spacing = 1
 content = 
 content-foreground = ${colors.alert}
-click-left = bash ~/scripts/rofi/launch.sh powermenu
+click-left = busctl --user call org.kde.ksmserver /KSMServer org.kde.KSMServerInterface logout iii 1 0 0
 
 
 [settings]
