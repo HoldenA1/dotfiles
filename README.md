@@ -54,3 +54,5 @@
 - [compton](https://github.com/GabrielTenma/compton-kawase-blur) - compositor
 - [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 - [Glasscord Electron](https://github.com/AryToNeX/Glasscord) - transparent vscodium
+- [Blurred Firefox](https://github.com/manilarome/blurredfox)
+
