@@ -15,6 +15,7 @@
 - [cmatrix](https://github.com/abishekvashok/cmatrix) - matrix text
 - [neofetch](https://github.com/dylanaraps/neofetch) - system info
 - [svgo](https://github.com/svg/svgo) - svg optimizer
+- gtop - system monitoring tool
 
 ## Text Editors
 
@@ -27,7 +28,6 @@
 ## Utility
 
 - Dolphin - file manager
-- htop - system analyzer
 - Obsidian - note taking
 
 ## Programming
