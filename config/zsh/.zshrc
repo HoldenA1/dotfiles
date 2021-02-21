@@ -4,7 +4,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 export PATH="$PATH:/home/holden/Documents/flutter/flutter-sdk/bin"
-export TERM=ansi
+export TERM=xterm-256color
 
 n ()
 {
@@ -61,4 +61,3 @@ alias wallpaper="feh --bg-fill"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-source /usr/share/nvm/init-nvm.sh
