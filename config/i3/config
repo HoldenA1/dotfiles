@@ -33,7 +33,7 @@ bindsym $mod+Return exec kitty
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id '/home/holden/scripts/rofi/launch.sh' drun
+bindsym $mod+d exec --no-startup-id rofi -show drun -theme clean
 
 # change focus
 bindsym $mod+j focus left
@@ -196,7 +196,7 @@ for_window [class="Klipper"] floating enable; border none
 for_window [class="Plasmoidviewer"] floating enable; border none
 
 # Set Wallpaper
-exec --no-startup-id feh --bg-scale '/home/holden/Pictures/wallpaper/aot-sunset.jpg'
+exec --no-startup-id feh --bg-scale '/home/holden/Pictures/wallpaper/fly-away.jpg'
 
 # Start polybar
 exec --no-startup-id '/home/holden/scripts/polybar/launch.sh'

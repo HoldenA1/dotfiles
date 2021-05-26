@@ -9,12 +9,14 @@ call plug#begin('~/.local/share/nvim/plugged')
 
 Plug 'davidhalter/jedi-vim'
 Plug 'vim-airline/vim-airline'
-Plug 'sheerun/vim-polyglot'
-Plug 'connorholyday/vim-snazzy'
+Plug 'jiangmiao/auto-pairs'
+Plug 'scrooloose/nerdtree'
 
 call plug#end()
 
-set termguicolors     " enable true colors support
-colorscheme snazzy
+" disable autocompletion, because we use deoplete for completion
+let g:jedi#completions_enabled = 0
+" open the go-to function in split, not another buffer
+let g:jedi#use_splits_not_buffers = "right"
 
-hi Normal guibg=NONE ctermbg=NONE
+set termguicolors     " enable true colors support
