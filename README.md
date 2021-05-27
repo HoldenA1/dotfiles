@@ -1,5 +1,9 @@
 # Holden's Dotfiles
 
+![Browser](https://github.com/holdena1/dotfiles/blob/master/screenshots/browser.png)
+![Terminal](https://github.com/holdena1/dotfiles/blob/master/screenshots/terminal.png)
+![IDE](https://github.com/holdena1/dotfiles/blob/master/screenshots/ide.png)
+
 ## Internet
 
 - Firefox - web browser
@@ -16,14 +20,18 @@
 - [neofetch](https://github.com/dylanaraps/neofetch) - system info
 - [svgo](https://github.com/svg/svgo) - svg optimizer
 - gtop - system monitoring tool
-
-## Text Editors
-
-- vim
+- feh - wallpaper tool
 
 ## IDEs
 
 - VS Code (vscodium)
+- Neovim
+  - jedi-vim
+  - vim-airline
+  - auto-pairs
+  - nerdtree
+  - [oceanic-next](https://github.com/mhartington/oceanic-next) - colorscheme
+  - markdown-preview
 
 ## Utility
 
