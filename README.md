@@ -1,8 +1,8 @@
 # Holden's Dotfiles
 
-![Browser](https://github.com/holdena1/dotfiles/blob/master/screenshots/browser.png)
-![Terminal](https://github.com/holdena1/dotfiles/blob/master/screenshots/terminal.png)
-![IDE](https://github.com/holdena1/dotfiles/blob/master/screenshots/ide.png)
+![Browser](https://github.com/holdena1/dotfiles/blob/main/screenshots/browser.png)
+![Terminal](https://github.com/holdena1/dotfiles/blob/main/screenshots/terminal.png)
+![IDE](https://github.com/holdena1/dotfiles/blob/main/screenshots/ide.png)
 
 ## Internet
 
