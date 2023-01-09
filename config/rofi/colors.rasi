@@ -2,7 +2,7 @@
     foreground:           rgba(196, 203, 212, 100%);
     selected-foreground:  rgba(255, 255, 255, 100%);
     
-    background:           #1f243aa0; 
+    background:           rgba(31, 36, 58, 63%); 
     background-solid:     #1f243aff; 
     selected-background:  rgba(0, 0, 0, 40%);
     /*#87b5d7;*/  

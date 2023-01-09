@@ -196,7 +196,7 @@ for_window [class="Klipper"] floating enable; border none
 for_window [class="Plasmoidviewer"] floating enable; border none
 
 # Set Wallpaper
-exec --no-startup-id feh --bg-scale '/home/holden/Pictures/wallpaper/fly-away.jpg'
+exec --no-startup-id feh --bg-scale '/home/holden/Pictures/wallpaper/illusion-by-denis-istomin-1920×1080.jpg'
 
 # Start polybar
 exec --no-startup-id '/home/holden/scripts/polybar/launch.sh'
